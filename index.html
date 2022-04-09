@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Johanu's Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/Johanu-circle.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <script src="assets/vendor/anime/anime.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container">
+
+      <div id="lineDrawing" class="w-100">
+          <svg viewBox="0 0 1000 100">
+              <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="4" class="lines" style="width: 50%; border: 2px black solid;">
+                  <path d="M484.877,75.440 C480.033,78.119 472.053,79.459 460.938,79.459 C449.821,79.459 441.763,78.140 436.761,75.499 C431.759,72.859 429.257,68.621 429.257,62.785 L429.257,26.519 L448.552,26.519 L448.552,62.904 C448.552,68.661 452.679,71.539 460.938,71.539 C465.304,71.539 468.382,70.805 470.168,69.336 C471.955,67.867 472.848,65.426 472.848,62.011 L472.848,26.519 L492.142,26.519 L492.142,62.309 C492.142,68.383 489.719,72.760 484.877,75.440 ZM383.761,40.930 C383.761,35.809 379.712,33.248 371.613,33.248 C367.880,33.248 364.923,33.933 362.740,35.303 C360.556,36.673 359.465,38.548 359.465,40.930 L359.465,78.745 L339.933,78.745 L339.933,26.519 L359.703,26.519 L359.703,31.522 L360.180,31.522 C365.182,27.710 371.930,25.805 380.427,25.805 C395.511,25.805 403.055,29.914 403.055,38.132 L403.055,78.745 L383.761,78.745 L383.761,40.930 ZM294.913,72.432 L294.319,72.432 C289.328,77.117 282.875,79.459 274.956,79.459 C268.223,79.459 262.285,77.881 257.138,74.725 C251.991,71.569 249.417,64.493 249.417,53.495 C249.417,43.729 251.356,36.693 255.238,32.385 C259.118,28.078 265.771,25.924 275.194,25.924 C279.627,25.924 283.211,26.440 285.943,27.472 C288.675,28.505 291.468,30.152 294.319,32.415 L294.913,32.415 L294.913,26.698 L314.445,26.698 L314.445,78.745 L294.913,78.745 L294.913,72.432 ZM292.671,38.042 C291.176,35.482 288.031,34.201 283.236,34.201 C278.438,34.201 275.116,35.392 273.268,37.774 C271.421,40.156 270.498,44.464 270.498,50.697 C270.498,58.042 271.223,63.252 272.679,66.328 C274.134,69.405 277.416,70.944 282.528,70.944 C287.482,70.944 290.784,69.455 292.436,66.477 C294.087,63.500 294.913,58.438 294.913,51.292 C294.913,45.020 294.165,40.603 292.671,38.042 ZM206.422,40.930 C206.422,35.968 202.412,33.487 194.393,33.487 C186.134,33.487 182.006,36.246 182.006,41.764 L182.006,78.745 L162.236,78.745 L162.236,0.317 L182.006,0.317 L182.006,31.045 C188.754,27.631 195.900,25.924 203.444,25.924 C218.213,25.924 225.597,29.914 225.597,37.893 L225.597,78.745 L206.422,78.745 L206.422,40.930 ZM104.830,79.459 C93.316,79.459 84.780,77.296 79.223,72.968 C73.665,68.642 70.886,61.992 70.886,53.019 C70.886,42.023 74.061,34.737 80.414,31.164 C86.766,27.591 94.665,25.805 104.115,25.805 L104.592,25.805 C114.516,25.805 122.496,27.691 128.531,31.462 C134.564,35.234 137.582,42.538 137.582,53.376 C137.582,63.540 134.426,70.428 128.114,74.040 C121.801,77.653 114.040,79.459 104.830,79.459 ZM114.358,38.191 C112.690,35.294 109.356,33.844 104.353,33.844 C99.589,33.844 96.333,34.975 94.587,37.238 C92.840,39.501 91.967,43.333 91.967,48.731 C91.967,59.252 92.938,65.684 94.885,68.026 C96.830,70.368 100.066,71.539 104.592,71.539 C109.434,71.539 112.690,70.358 114.358,67.996 C116.025,65.634 116.859,61.575 116.859,55.818 C116.859,46.965 116.025,41.090 114.358,38.191 ZM20.388,79.816 C16.020,79.816 9.431,79.340 0.618,78.387 L0.618,69.097 C7.683,70.488 13.043,71.182 16.696,71.182 C20.507,71.182 23.503,70.497 25.688,69.127 C27.871,67.758 28.963,65.882 28.963,63.500 L28.963,2.878 L49.448,2.878 L49.448,65.108 C49.448,74.914 39.760,79.816 20.388,79.816 Z" stroke-dasharray="47.128875732421875" style="stroke-dashoffset: 47.1289px;"></path>
+              </g>
+          </svg>
+      </div>
+      
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+      <h2>I'm a passionate web engineer from Benin</h2>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="#header">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#resume">Resume</a></li>
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="social-links">
+        <a href="mailto:johanugandonou@gmail.com"><i class="bi bi-envelope"></i></a>
+        <a href="https://wa.me/+22961149072" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <a href="tel:+22961149072"><i class="bi bi-telephone"></i></a>
+        <a href="https://web.facebook.com/profile.php?id=100008428622236" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://linkedin.com/in/johanu-gandonou-7421601a1" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/Johanu66/" target="_blank"><i class="bi bi-github"></i></a>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+
+    <!-- ======= About Me ======= -->
+    <div class="about-me container">
+
+      <div class="section-title">
+        <h2>About</h2>
+        <p>Learn more about me</p>
+      </div>
+
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="assets/img/Johanu-without-bg.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <h3>Web Engineer</h3>
+          <p class="fst-italic">
+            I am very happy to count you among the visitors of my site and I beg you not to hesitate to contact me in case of need. I will be very happy to get in touch with you.
+          </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>25 March 2001</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span><a href="https://www.johanu.ml" target="_blanck" class="text-white">www.johanu.ml</a></span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+229 <a href="tel:+22961149072" class="text-white">61149072</a> / <a href="tel:+22960404963" class="text-white">60404963</a></span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Benin, West Africa</span></li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Licence</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a class="text-white" href="mailto:johanugandonou@gmail.com">johanugandonou@gmail.com</a></span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+              </ul>
+            </div>
+          </div>
+          <p>
+            I'm a young Beninese very passionate about web and mobile application development. I am a web engineer certified by a very big Japanese school ( Dive Into Code ). Since the year 2019 until today, I have worked on many applications with several clients, through which I have shown my skills and abilities in web and mobile development. My ambition in the immediate future is to put all my knowledges at the service of the community and continue to acquire new knowledge every day.
+          </p>
+        </div>
+      </div>
+
+    </div><!-- End About Me -->
+
+    <!-- ======= Counts ======= -->
+    <div class="counts container">
+
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6">
+          <div class="count-box">
+            <i class="bi bi-emoji-smile"></i>
+            <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Happy Clients</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+          <div class="count-box">
+            <i class="bi bi-journal-richtext"></i>
+            <span data-purecounter-start="0" data-purecounter-end="71" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Projects</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+          <div class="count-box">
+            <i class="bi bi-headset"></i>
+            <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Hours Of Support</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+          <div class="count-box">
+            <i class="bi bi-award"></i>
+            <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Awards</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div><!-- End Counts -->
+
+    <!-- ======= Skills  ======= -->
+    <div class="skills container">
+
+      <div class="section-title">
+        <h2>Main skills</h2>
+      </div>
+
+      <div class="row skills-content">
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">Ruby on Rails <i class="val">95%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">HTML <i class="val">95%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">BOOTSTRAP <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">SQL <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">PHP <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">CSS <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">JavaScript <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">JQUERY <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">GITHUB & GITLAB <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">UML2 <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">C++ <i class="val">70%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">FIGMA <i class="val">70%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">CANVA <i class="val">70%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">ORACLE <i class="val">60%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div><!-- End Skills -->
+
+    <!-- ======= Interests ======= -->
+    <div class="interests container">
+
+      <div class="section-title">
+        <h2>Interests</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
+            <h3>Learn english</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-disc-line" style="color: #b20969;"></i>
+            <h3>Listen music</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-base-station-line" style="color: #ff5828;"></i>
+            <h3>Play game</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+            <h3>Share my knowledge</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-store-line" style="color: #ffbb2c;"></i>
+            <h3>Help others</h3>
+          </div>
+        </div>
+        <!--div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
+            <h3>Sed perspiciatis</h3>
+          </div>
+        </!--div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
+            <h3>Magni Dolores</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-database-2-line" style="color: #47aeff;"></i>
+            <h3>Nemo Enim</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
+            <h3>Eiusmod Tempor</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
+            <h3>Midela Teren</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
+            <h3>Pira Neve</h3>
+          </div>
+        </div>
+        <div-- class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-anchor-line" style="color: #b2904f;"></i>
+            <h3>Dirada Pack</h3>
+          </div>
+        </div-->
+      </div>
+
+    </div><!-- End Interests -->
+
+    <!-- ======= Testimonials ======= -->
+    <!--div class="testimonials container">
+
+      <div class="section-title">
+        <h2>Testimonials</h2>
+      </div>
+
+      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+              <h3>Saul Goodman</h3>
+              <h4>Ceo &amp; Founder</h4>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+              <h3>Sara Wilsson</h3>
+              <h4>Designer</h4>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+              <h3>Jena Karlis</h3>
+              <h4>Store Owner</h4>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+              <h3>Matt Brandon</h3>
+              <h4>Freelancer</h4>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+              <h3>John Larson</h3>
+              <h4>Entrepreneur</h4>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <div class="owl-carousel testimonials-carousel">
+
+      </div>
+
+    </div--><!-- End Testimonials  -->
+
+  </section><!-- End About Section -->
+
+  <!-- ======= Resume Section ======= -->
+  <section id="resume" class="resume">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Resume</h2>
+        <p>Check My Resume</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="resume-title">Sumary</h3>
+          <div class="resume-item pb-0">
+            <h4>Johanu GANDONOU</h4>
+            <p><em>Web and mobile application developer with over 3 years of experience in web application development.</em></p>
+            <p>
+            <ul>
+              <li>Benin, West Africa</li>
+              <li>(229) <a href="tel:+22961149072" class="text-white">61149072</a> / <a href="tel:+22960404963" class="text-white">60404963</a></li>
+              <li><a class="text-white" href="mailto:johanugandonou@gmail.com">johanugandonou@gmail.com</a></li>
+            </ul>
+            </p>
+          </div>
+
+          <h3 class="resume-title">Education</h3>
+          <div class="resume-item">
+            <h4>Degree in  web engineering</h4>
+            <h5>2021</h5>
+            <p><em>Dive Into Code, Japan, Asia</em></p>
+            <!--p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p-->
+          </div>
+          <div class="resume-item">
+            <h4>License in Software Engineering</h4>
+            <h5>2019 - 2022</h5>
+            <p><em>Institute of training and research in computer science at the University of Abomey-Calavi, Benin, West Africa</em></p>
+            <!--p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p-->
+          </div>
+          <div class="resume-item">
+            <h4>Scientific Baccaleate</h4>
+            <h5>2012 - 2019</h5>
+            <p><em>General Education College of Djigbe, Benin, West Africa</em></p>
+            <!--p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p-->
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h3 class="resume-title">Professional Experience</h3>
+          <div class="resume-item">
+            <h4>Freelance web developer</h4>
+            <h5>2019 - Present</h5>
+            <p><em>Everywhere</em></p>
+            <p>
+            <ul>
+              <li>Work as a project manager on a web application project with colleagues.</li>
+              <li>Many customers have been satisfied.</li>
+            </ul>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>Ruby on Rails web developer</h4>
+            <h5>2022</h5>
+            <p><em>Ever Partners, Benin, West Africa</em></p>
+            <p>
+            <ul>
+              <li>Working on a lot of very interesting projects.</li>
+            </ul>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>Academic internship in web development</h4>
+            <h5>2021</h5>
+            <p><em>Agence web Marina, Benin, West Africa</em></p>
+            <p>
+            <ul>
+              <li>Two big php applications finalized in one month.</li>
+              <li>A hospital management application and a school management application developed in raw php.</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Resume Section -->
+
+  <!-- ======= Services Section ======= -->
+  <section id="services" class="services">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Services</h2>
+        <p>My Services</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-world"></i></div>
+            <h4><a href="">Development of web applications and websites</a></h4>
+            <p>Available for the creation of your personal site or the site of your company and for the creation of your web application for the sale of your products online or for the publication of your articles...</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><a href="">Mobile application development</a></h4>
+            <p>Available for the creation of your mobile applications as well as to facilitate the task of your customers by automating certain operations carried out within your company or for any other need...</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-tachometer"></i></div>
+            <h4><a href="">Complete coaching in web development</a></h4>
+            <p>Available to accompany you in learning and applying basic or advanced web development technologies. Without forgetting to help you in the hosting and in the aquisition and the management of your domain name...</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-slideshow"></i></div>
+            <h4><a href="">Installation and update of software</a></h4>
+            <p>Available for the installation and for the update of your operating system (windows, linux...) and for the installation of any other software such as word, power point, browser...</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bxl-dribbble"></i></div>
+            <h4><a href="">Management of computer projects</a></h4>
+            <p>Available to accompany you for the realization of your ideas of data-processing project while leaving the definition of the needs until the setting in production.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-arch"></i></div>
+            <h4><a href="">Creation of chatbot telegram, whatsapp and messenger</a></h4>
+            <p>Available for the creation of your chatbot whatsapp, telegram and messenger to keep you active. It will be able to automatically reply to your contacts when you are not online to keep you always active...</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Services Section -->
+
+  <!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Portfolio</h2>
+        <p>My Works</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <!--li data-filter="*" class="filter-active">All</li-->
+            <!--li data-filter=".filter-app">App</li-->
+            <!--li data-filter=".filter-card">Card</li-->
+            <!--li data-filter=".filter-web">Web</li-->
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/Atcho-store.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Atcho Store</h4>
+              <!--p>App</p-->
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Atcho-store.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Atcho Store"><i class="bx bx-plus"></i></a>
+                <a href="https://atcho-store.herokuapp.com/" target="_blank"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/Informatique-shop.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Informatique Shop</h4>
+              <!--p>Web</p-->
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Informatique-shop.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Informatique Shop"><i class="bx bx-plus"></i></a>
+                <a href="http://informatique-shop.x10.mx/" target="_blank"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/Hospital-manager.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Hospital Manager</h4>
+              <!--p>Card</p-->
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Hospital-manager.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Hospital Manager"><i class="bx bx-plus"></i></a>
+                <a href="https://hospital-manager-app.herokuapp.com/" target="_blank"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/Instagram-clone.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Instagram Clone</h4>
+              <!--p>Web</p-->
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Instagram-clone.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="https://instagramme-clone.herokuapp.com/" target="_blank"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/Car-location.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Car Location</h4>
+              <!--p>App</p-->
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Car-location.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Car Location"><i class="bx bx-plus"></i></a>
+                <a href="http://car-location-app.herokuapp.com/" target="_blank"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/Expense-manager.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Expense Manager</h4>
+              <!--p>Card</p-->
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Expense-manager.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Expense Manager"><i class="bx bx-plus"></i></a>
+                <a href="https://expense-manager10.herokuapp.com/" target="_blank"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/My-cv.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>My CV</h4>
+              <!--p>Card</p-->
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/My-cv.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="My CV"><i class="bx bx-plus"></i></a>
+                <a href="https://johanu66.github.io/Mon-CV/" target="_blank"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/Matrice.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Matrix App</h4>
+              <!--p>Web</p-->
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Matrice.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Matrix App"><i class="bx bx-plus"></i></a>
+                <a href="https://johanu66.github.io/Matrice/" target="_blank"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/Resolveur.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Equation Solver</h4>
+              <!--p>App</p-->
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Resolveur.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Equation Solver"><i class="bx bx-plus"></i></a>
+                <a href="http://informatique-shop.x10.mx/" target="_blank"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Portfolio Section -->
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p>Contact Me</p>
+      </div>
+
+      <div class="row mt-2">
+
+        <div class="col-md-6 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-map"></i>
+            <h3>My Address</h3>
+            <p>Benin, West Africa</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-share-alt"></i>
+            <h3>Social Profiles</h3>
+            <div class="social-links">
+              <a href="mailto:johanugandonou@gmail.com"><i class="bi bi-envelope"></i></a>
+              <a href="https://wa.me/+22961149072" target="_blank"><i class="bi bi-whatsapp"></i></a>
+              <a href="tel:+22961149072"><i class="bi bi-telephone"></i></a>
+              <a href="https://web.facebook.com/profile.php?id=100008428622236" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://linkedin.com/in/johanu-gandonou-7421601a1" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/Johanu66/" target="_blank"><i class="bi bi-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-envelope"></i>
+            <h3>Email Me</h3>
+            <p><a class="text-white" href="mailto:johanugandonou@gmail.com">johanugandonou@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-phone-call"></i>
+            <h3>Call Me</h3>
+            <p>+229 <a href="tel:+22961149072" class="text-white">61149072</a> / <a href="tel:+22960404963" class="text-white">60404963</a></p>
+          </div>
+        </div>
+      </div>
+
+      <form action="https://sending-mail-api.herokuapp.com/index.php" method="post" role="form" class="php-email-form mt-4">
+        <div class="row">
+          <div class="col-md-6 form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="col-md-6 form-group mt-3 mt-md-0">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+          </div>
+        </div>
+        <div class="form-group mt-3">
+          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+        </div>
+        <div class="form-group mt-3">
+          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+        </div>
+        <div class="my-3">
+          <div class="loading">Loading</div>
+          <div class="error-message"></div>
+          <div class="sent-message">Your message has been sent. Thank you!</div>
+        </div>
+        <div class="text-center"><button type="submit">Send Message</button></div>
+      </form>
+
+    </div>
+  </section><!-- End Contact Section -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
