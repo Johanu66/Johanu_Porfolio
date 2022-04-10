@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio de Johanu</title>
+        <meta charset="utf-8">
+        <meta name="google-site-verification" content="3_RwEdJLG7GkJajvVaOeWwCWoWKDqADvENka5BCvEXE" />
+        <link rel="icon" href="Images/Logo1.png" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="anime.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-K0WDPCSMWK"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-K0WDPCSMWK');
+        </script>
+        <script src="//code.tidio.co/qocfwd3ygpa8beisuqkm6krwbvorpjmg.js" async></script>
+    </head>
+    <body>
+        <div id="loader" class="d-flex flex-column justify-content-center">
+            <h1 class="d-flex justify-content-center">
+                <span class="loaderAnimation">P</span>
+                <span class="loaderAnimation">O</span>
+                <span class="loaderAnimation">R</span>
+                <span class="loaderAnimation">T</span>
+                <span class="loaderAnimation">F</span>
+                <span class="loaderAnimation">O</span>
+                <span class="loaderAnimation">L</span>
+                <span class="loaderAnimation">I</span>
+                <span class="loaderAnimation">O</span>
+                <span class="loaderAnimation ml-3">D</span>
+                <span class="loaderAnimation mr-3">E</span>
+                <span class="loaderAnimation">J</span>
+                <span class="loaderAnimation">O</span>
+                <span class="loaderAnimation">H</span>
+                <span class="loaderAnimation">A</span>
+                <span class="loaderAnimation">N</span>
+                <span class="loaderAnimation">U</span>
+            </h1>
+            <div class="text-center">
+                chargement<span class="loaderDot">.</span><span class="loaderDot">.</span><span class="loaderDot">.</span>
+            </div>
+        </div>
+        <header class="d-flex justify-content-around align-items-center p-3 bg-white" id="mainHeader">
+            <div class="flex-grow-1">
+                <a href="index.html" class="d-inline-flex align-items-center">
+                    <img src="Images/Logo.png" alt="Logo" width="80" height="80">
+                    <span id="logoMeaning">Johanu G.</span>
+                </a>
+            </div>
+            <nav class="flex-grow-1 d-none d-lg-flex">
+                <ul class="m-0 flex-grow-1 list-unstyled d-flex justify-content-around" id="relativeNav">
+                    <a href="#firstSection"><li class="firstAndSecondSectionNav">Accueil</li></a>
+                    <a href="#void"><li class="servicesNav">Services</li></a>
+                    <a href="#knowledge"><li class="knowledgeNav">Connaissances</li></a>
+                    <a href="#projects"><li class="projectsNav">Projets</li></a>
+                    <a href="#aboutMe"><li class="aboutMeNav">À propos</li></a>
+                </ul>
+            </nav>
+            <div class="d-lg-none" id="iconMenu" data-toggle="collapse" data-target="#mainFistScrollingList">
+                <svg width="80" height="80" fill="currentColor" class="bi bi-justify text-white" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+                <ul class="m-0 list-unstyled collapse" id="mainFistScrollingList">
+                    <a href="#firstSection"><li class="p-4 border firstAndSecondSectionNav">Accueil</li></a>
+                    <a href="#void"><li class="p-4 border servicesNav">Services</li></a>
+                    <a href="#knowledge"><li class="p-4 border knowledgeNav">Connaissances</li></a>
+                    <a href="#projects"><li class="p-4 border projectsNav">Projets</li></a>
+                    <a href="#aboutMe"><li class="p-4 border aboutMeNav">À propos</li></a>
+                </ul>
+            </div>
+        </header>
+        <div id="firstAndSecondSection" class="section">
+            <section id="firstSection" class="pb-5">
+                <header class="d-flex justify-content-around align-items-center p-3" id="firstSectionHeader">
+                    <div class="flex-grow-1">
+                        <a href="index.html" class="d-inline-flex align-items-center">
+                            <img src="Images/Logo.png" alt="Logo" width="80" height="80" class="m-2">
+                            <span id="logoMeaning">Johanu G.</span>
+                        </a>
+                    </div>
+                    <nav class="flex-grow-1 d-none d-lg-flex">
+                        <ul class="m-0 flex-grow-1 list-unstyled d-flex justify-content-around" id="relativeNav">
+                            <a href="#firstSection"><li class="firstAndSecondSectionNav">Accueil</li></a>
+                            <a href="#void"><li class="servicesNav">Services</li></a>
+                            <a href="#knowledge"><li class="knowledgeNav">Connaissances</li></a>
+                            <a href="#projects"><li class="projectsNav">Projets</li></a>
+                            <a href="#aboutMe"><li class="aboutMeNav">À propos</li></a>
+                        </ul>
+                    </nav>
+                    <div class="d-lg-none" id="iconMenu" data-toggle="collapse" data-target="#fistScrollingList">
+                        <svg width="80" height="80" fill="currentColor" class="bi bi-justify text-white" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                        <ul class="m-0 list-unstyled collapse" id="fistScrollingList">
+                            <a href="#firstSection"><li class="p-4 border firstAndSecondSectionNav">Accueil</li></a>
+                            <a href="#void"><li class="p-4 border servicesNav">Services</li></a>
+                            <a href="#knowledge"><li class="p-4 border knowledgeNav">Connaissances</li></a>
+                            <a href="#projects"><li class="p-4 border projectsNav">Projets</li></a>
+                            <a href="#aboutMe"><li class="p-4 border aboutMeNav">À propos</li></a>
+                        </ul>
+                    </div>
+                </header>
+                <div id="lineDrawing" class="text-center">
+                    <svg viewBox="-250 -50 1000 150" class="text-center">
+                        <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="4" class="lines" style="width: 50%; border: 2px black solid;">
+                            <path d="M484.877,75.440 C480.033,78.119 472.053,79.459 460.938,79.459 C449.821,79.459 441.763,78.140 436.761,75.499 C431.759,72.859 429.257,68.621 429.257,62.785 L429.257,26.519 L448.552,26.519 L448.552,62.904 C448.552,68.661 452.679,71.539 460.938,71.539 C465.304,71.539 468.382,70.805 470.168,69.336 C471.955,67.867 472.848,65.426 472.848,62.011 L472.848,26.519 L492.142,26.519 L492.142,62.309 C492.142,68.383 489.719,72.760 484.877,75.440 ZM383.761,40.930 C383.761,35.809 379.712,33.248 371.613,33.248 C367.880,33.248 364.923,33.933 362.740,35.303 C360.556,36.673 359.465,38.548 359.465,40.930 L359.465,78.745 L339.933,78.745 L339.933,26.519 L359.703,26.519 L359.703,31.522 L360.180,31.522 C365.182,27.710 371.930,25.805 380.427,25.805 C395.511,25.805 403.055,29.914 403.055,38.132 L403.055,78.745 L383.761,78.745 L383.761,40.930 ZM294.913,72.432 L294.319,72.432 C289.328,77.117 282.875,79.459 274.956,79.459 C268.223,79.459 262.285,77.881 257.138,74.725 C251.991,71.569 249.417,64.493 249.417,53.495 C249.417,43.729 251.356,36.693 255.238,32.385 C259.118,28.078 265.771,25.924 275.194,25.924 C279.627,25.924 283.211,26.440 285.943,27.472 C288.675,28.505 291.468,30.152 294.319,32.415 L294.913,32.415 L294.913,26.698 L314.445,26.698 L314.445,78.745 L294.913,78.745 L294.913,72.432 ZM292.671,38.042 C291.176,35.482 288.031,34.201 283.236,34.201 C278.438,34.201 275.116,35.392 273.268,37.774 C271.421,40.156 270.498,44.464 270.498,50.697 C270.498,58.042 271.223,63.252 272.679,66.328 C274.134,69.405 277.416,70.944 282.528,70.944 C287.482,70.944 290.784,69.455 292.436,66.477 C294.087,63.500 294.913,58.438 294.913,51.292 C294.913,45.020 294.165,40.603 292.671,38.042 ZM206.422,40.930 C206.422,35.968 202.412,33.487 194.393,33.487 C186.134,33.487 182.006,36.246 182.006,41.764 L182.006,78.745 L162.236,78.745 L162.236,0.317 L182.006,0.317 L182.006,31.045 C188.754,27.631 195.900,25.924 203.444,25.924 C218.213,25.924 225.597,29.914 225.597,37.893 L225.597,78.745 L206.422,78.745 L206.422,40.930 ZM104.830,79.459 C93.316,79.459 84.780,77.296 79.223,72.968 C73.665,68.642 70.886,61.992 70.886,53.019 C70.886,42.023 74.061,34.737 80.414,31.164 C86.766,27.591 94.665,25.805 104.115,25.805 L104.592,25.805 C114.516,25.805 122.496,27.691 128.531,31.462 C134.564,35.234 137.582,42.538 137.582,53.376 C137.582,63.540 134.426,70.428 128.114,74.040 C121.801,77.653 114.040,79.459 104.830,79.459 ZM114.358,38.191 C112.690,35.294 109.356,33.844 104.353,33.844 C99.589,33.844 96.333,34.975 94.587,37.238 C92.840,39.501 91.967,43.333 91.967,48.731 C91.967,59.252 92.938,65.684 94.885,68.026 C96.830,70.368 100.066,71.539 104.592,71.539 C109.434,71.539 112.690,70.358 114.358,67.996 C116.025,65.634 116.859,61.575 116.859,55.818 C116.859,46.965 116.025,41.090 114.358,38.191 ZM20.388,79.816 C16.020,79.816 9.431,79.340 0.618,78.387 L0.618,69.097 C7.683,70.488 13.043,71.182 16.696,71.182 C20.507,71.182 23.503,70.497 25.688,69.127 C27.871,67.758 28.963,65.882 28.963,63.500 L28.963,2.878 L49.448,2.878 L49.448,65.108 C49.448,74.914 39.760,79.816 20.388,79.816 Z" stroke-dasharray="47.128875732421875" style="stroke-dashoffset: 47.1289px;"></path>
+                        </g>
+                    </svg> 
+                </div>
+                <h1 class="text-white text-center p-4">Full Stack Developer</h1>
+                <h2 class="text-center p-4" id="citation">"Coder, c'est de savoir avant l'ordinateur, sa réation devant tout cas possible."</h2>
+            </section>
+            <section class="row m-0" id="secondSection">
+                <div class="col-12 col-lg-6">
+                    <h1 class="d-flex justify-content-center align-items-center h-100 text-center" data-aos="fade-right">"Je ne cesserai jamais d'avancer tant que Dieu me prête le souffle de vie."</h1>
+                </div>
+                <div class="col-12 col-lg-6 p-0">
+                    <video src="video.mp4" alt="Walking" loop muted autoplay style="width: 100%;"></video>
+                </div>
+            </section>
+        </div>
+        <div id="void"></div>
+        <section id="services" class="section container-fluid">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 100%;" viewBox="0 0 1500 370">
+                    <defs>
+                    <filter id="filter" x="371" y="36" width="760" height="103" filterUnits="userSpaceOnUse">
+                        <feGaussianBlur result="blur" stdDeviation="2.333" in="SourceAlpha"/>
+                        <feComposite result="composite"/>
+                        <feComposite result="composite-2"/>
+                        <feComposite result="composite-3"/>
+                        <feFlood result="flood" flood-color="coral" flood-opacity="0.35"/>
+                        <feComposite result="composite-4" operator="in" in2="composite-3"/>
+                        <feBlend result="blend" mode="screen" in2="SourceGraphic"/>
+                        <feBlend result="blend-2" in="SourceGraphic"/>
+                        <feGaussianBlur result="blur-2" stdDeviation="2.333" in="SourceAlpha"/>
+                        <feFlood result="flood-2" flood-color="coral" flood-opacity="0.35"/>
+                        <feComposite result="composite-6" operator="out" in2="blur-2"/>
+                        <feComposite result="composite-5" operator="in" in2="SourceAlpha"/>
+                        <feBlend result="blend-3" mode="screen" in2="blend-2"/>
+                    </filter>
+                    </defs>
+                    <path id="Forme_1" data-name="Forme 1" class="cls-1" d="M-35.387-137.524C-105.2-42.7-10.92,141.869,46,219c27.4,37.128,58.319,64.576,93,85,74.394,43.811,153.584,46.8,157,36,3.054-9.653-58.706-28.5-85-82-6.865-13.968-26.757-60.693-4-87,8.01-9.259,23.468-18.255,40-16,22.582,3.08,29.386,27.734,49,28,19.686,0.267,27.239-24.388,50-27,16.861-1.935,32.2,7.633,40,17,23.246,27.925-1.055,77.618-9,92-28.278,51.19-84.454,67.82-82,75,3.317,9.7,108.489,5.679,162-63,30.444-39.074,33.4-103.158,48-104,14.771-.852,26.124,66.7,61,106,55.92,63.009,146.035,68.741,148,63,1.381-4.036-43.079-15.833-73-56-19.685-26.426-44.312-77.537-22-106,10.14-12.936,30.585-21.938,49-18,19.209,4.108,26.631,24.117,44,24,16.233-.11,23.024-17.8,41-22,17.647-4.125,37.4,3.149,48,15,24.7,27.616.987,78.5-10,97-28.006,47.168-79.708,61.226-78,66,2.225,6.219,100.8-1.446,156-71,22.572-28.441,36.484-85.432,52-85,15.141,0.421,24.822,54.511,45,82,57.26,78.014,181.26,80.249,184,71,1.66-5.614-44.53-17.507-75-59-16.04-21.85-38.48-61.218-22-88,9.4-15.279,30.82-26.38,50-23,21.02,3.705,26.74,24.926,46,26,20.13,1.123,29.23-21.388,52-24,18.75-2.15,38.65,7.743,48,22,18.7,28.5-7.2,71.16-16,84-30.62,44.665-84.54,53.982-83,61,2.42,11.043,127.92,16.9,231-60,35.1-26.184,69.32-64.145,98-120,44.74-87.117,81.64-242.41,12.06-324.52-105.96-125.026-570.537,51.931-769.438,56.956C500.126-103.967,55.021-260.324-35.387-137.524Z"/>
+                    <path id="Forme_2" data-name="Forme 2" class="cls-1" d="M531,564"/>
+                    <g style="fill: #2e3192; filter: url(#filter)">
+                    <text id="SERVICES" class="cls-2" x="750.213" y="131.552" style="stroke: inherit; filter: none; fill: inherit"><tspan x="750.213">SERVICES</tspan></text>
+                    </g>
+                    <use xlink:href="#SERVICES" style="stroke: coral; filter: none; fill: none"/>
+                </svg>
+            </div>
+            <div class="row d-flex justify-content-around" id="listServices"></div>
+        </section>
+        <section id="knowledge" class="section">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 100%;" viewBox="0 0 1500 450">
+                    <defs>
+                      <filter id="filter" x="119" y="30" width="1257" height="109" filterUnits="userSpaceOnUse">
+                        <feGaussianBlur result="blur" stdDeviation="2.333" in="SourceAlpha"/>
+                        <feComposite result="composite"/>
+                        <feComposite result="composite-2"/>
+                        <feComposite result="composite-3"/>
+                        <feFlood result="flood" flood-color="coral" flood-opacity="0.35"/>
+                        <feComposite result="composite-4" operator="in" in2="composite-3"/>
+                        <feBlend result="blend" mode="screen" in2="SourceGraphic"/>
+                        <feBlend result="blend-2" in="SourceGraphic"/>
+                        <feGaussianBlur result="blur-2" stdDeviation="2.333" in="SourceAlpha"/>
+                        <feFlood result="flood-2" flood-color="coral" flood-opacity="0.35"/>
+                        <feComposite result="composite-6" operator="out" in2="blur-2"/>
+                        <feComposite result="composite-5" operator="in" in2="SourceAlpha"/>
+                        <feBlend result="blend-3" mode="screen" in2="blend-2"/>
+                      </filter>
+                    </defs>
+                    <path id="Forme_1" data-name="Forme 1" class="cls-1" d="M-35.387-137.524C-81.481-72.307-43.779,66.746,97.167,283.957c44.127,68,86.23,111.561,142.91,122.2C325.915,422.264,390.366,352.234,511.4,273.6c76.181-49.494,160.649-91.144,194.689-97.345,144.543-26.328,368.3,75.772,440.122,89.06,85.48,15.816,144.01,13.571,188.47-6.213,155.36-69.123,235.91-323.678,156.38-425.623-91.14-116.824-529.51,54.592-769.438,56.956C518.408-107.561,48.342-255.99-35.387-137.524Z"/>
+                    <g style="fill: #2e3192; filter: url(#filter)">
+                      <text id="Connaissances" class="cls-2" x="746.212" y="131.552" style="stroke: inherit; filter: none; fill: inherit"><tspan x="746.212">CONNAISSANCES</tspan></text>
+                    </g>
+                    <use xlink:href="#Connaissances" style="stroke: coral; filter: none; fill: none"/>
+                </svg>          
+            </div>
+            <div>
+                <div class="wrapper position-relative" id="listKnowledge"></div>
+                <div id="pagination" class="text-center"></div>
+            </div>
+        </section>
+        <section id="projects" class="section container-fluid">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 100%;" viewBox="0 0 1500 350">
+                    <defs>
+                      <filter id="filter" x="371" y="30" width="758" height="109" filterUnits="userSpaceOnUse">
+                        <feGaussianBlur result="blur" stdDeviation="2.333" in="SourceAlpha"/>
+                        <feComposite result="composite"/>
+                        <feComposite result="composite-2"/>
+                        <feComposite result="composite-3"/>
+                        <feFlood result="flood" flood-color="coral" flood-opacity="0.35"/>
+                        <feComposite result="composite-4" operator="in" in2="composite-3"/>
+                        <feBlend result="blend" mode="screen" in2="SourceGraphic"/>
+                        <feBlend result="blend-2" in="SourceGraphic"/>
+                        <feGaussianBlur result="blur-2" stdDeviation="2.333" in="SourceAlpha"/>
+                        <feFlood result="flood-2" flood-color="coral" flood-opacity="0.35"/>
+                        <feComposite result="composite-6" operator="out" in2="blur-2"/>
+                        <feComposite result="composite-5" operator="in" in2="SourceAlpha"/>
+                        <feBlend result="blend-3" mode="screen" in2="blend-2"/>
+                      </filter>
+                    </defs>
+                    <path id="Forme_1" data-name="Forme 1" class="cls-1" d="M-35.387-137.524C-116.749-22.408-41.253,243.831,97.167,283.957c27.078,7.849,69,7.787,123.833-13.957,52.145-20.679,94.364-79.649,147-78,63.741,2,80.4,75.707,143.4,81.6,76.888,7.194,111.859-92.022,194.689-97.345C795.69,170.5,828.1,268.579,922,275c106.9,7.31,145.56-98.974,256-95,90.37,3.252,131.78,91.3,201,77,116.48-24.067,208.44-309.36,112.06-423.52C1388.88-287.554,945.9-111.774,721.622-109.564,518.408-107.561,48.342-255.99-35.387-137.524Z"/>
+                    <path id="Forme_2" data-name="Forme 2" class="cls-1" d="M1562,493"/>
+                    <g style="fill: #2e3192; filter: url(#filter)">
+                      <text id="PROJETS" class="cls-2" x="749.212" y="131.552" style="stroke: inherit; filter: none; fill: inherit"><tspan x="749.212">PROJETS</tspan></text>
+                    </g>
+                    <use xlink:href="#PROJETS" style="stroke: coral; filter: none; fill: none"/>
+                  </svg>                  
+            </div>
+            <div class="row d-flex justify-content-around" id="listProjects"></div>
+        </section>
+        <section id="aboutMe" class="section container-fluid">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 100%;" viewBox="0 0 1500 450">
+                    <defs>
+                      <filter id="filter" x="57" y="16" width="1386" height="123" filterUnits="userSpaceOnUse">
+                        <feGaussianBlur result="blur" stdDeviation="2.333" in="SourceAlpha"/>
+                        <feComposite result="composite"/>
+                        <feComposite result="composite-2"/>
+                        <feComposite result="composite-3"/>
+                        <feFlood result="flood" flood-color="coral" flood-opacity="0.35"/>
+                        <feComposite result="composite-4" operator="in" in2="composite-3"/>
+                        <feBlend result="blend" mode="screen" in2="SourceGraphic"/>
+                        <feBlend result="blend-2" in="SourceGraphic"/>
+                        <feGaussianBlur result="blur-2" stdDeviation="2.333" in="SourceAlpha"/>
+                        <feFlood result="flood-2" flood-color="coral" flood-opacity="0.35"/>
+                        <feComposite result="composite-6" operator="out" in2="blur-2"/>
+                        <feComposite result="composite-5" operator="in" in2="SourceAlpha"/>
+                        <feBlend result="blend-3" mode="screen" in2="blend-2"/>
+                      </filter>
+                    </defs>
+                    <path id="Forme_1" data-name="Forme 1" class="cls-1" d="M-35.387-137.524C-116.749-22.408-41.253,243.831,97.167,283.957c7.624,2.21,28.086,5.5,46.643,4.467,33-1.846,45.729-17.757,77.19-18.424,45.6-.966,58.986,31.189,105,31,48.666-.2,86.792-35.465,84-42-3.009-7.045-55.078,18.673-92-5-18.833-12.075-33.593-35.452-29-54,8.558-34.558,84.353-53.087,140-31,43.06,17.091,80.665,61.015,71,84-7.853,18.675-45.2,16.433-45,19,0.256,3.216,59.008,11.04,79-18,18.818-27.335-11.318-75.018,1-84,15.77-11.5,82.579,67.97,161,93,49.762,15.883,109.07,15.476,168.852,5.964,10.3-1.638,19.975-3.614,29.148-5.964,26.583-6.809,52.821-17.486,80-33,53.37-30.464,80.12-65.232,102-56,14.87,6.274,23.31,29.314,19,47-9.79,40.146-86.87,51.163-86,55,0.82,3.623,73.34,11.524,148-27,26.24-13.539,53.55-32.964,90-28,26.83,3.654,44.84,20.693,66,28,13.71,4.735,41.93,12.311,66,8,112.01-20.06,208.41-309.391,112.06-423.52C1388.88-287.554,945.9-111.774,721.622-109.564,518.408-107.561,48.342-255.99-35.387-137.524Z"/>
+                    <g style="fill: #2e3192; filter: url(#filter)">
+                      <text id="À_PROPOS_DE_MOI" data-name="À PROPOS DE MOI" class="cls-2" x="753.213" y="131.552" style="stroke: inherit; filter: none; fill: inherit"><tspan x="753.213">À PROPOS DE MOI</tspan></text>
+                    </g>
+                    <use xlink:href="#À_PROPOS_DE_MOI" style="stroke: coral; filter: none; fill: none"/>
+                  </svg>                  
+            </div>
+            <div class="row d-flex justify-content-around align-items-center mb-5 pb-5">
+                <div class="col-11 col-lg-5 myPictures">
+                    <div class="">
+                        <div class="">
+                            <div class="swiper-slide"><img src="Images/JohanuPicture1.png" alt=""></div>
+                            <!-- <div class="swiper-slide"><img src="Images/JohanuPicture2.png" alt=""></div> -->
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="col-11 col-lg-6">
+                    <h3 class="my-3">Je suis Johanu GANDONOU</h3>
+                    <div class="text-justify my-3">Né le 25 mars 2001, j'ai étudié sur le chemin scientifique avec toujours un résultat brillant à la fin de chaque année. Après avoir obtenu mon diplôme de BAC en 2019, j'ai suivi ma passion qu'est l'informatique et plus précisement la programmation. En ce jour, je suis <strong>un développeur web fullStack</strong> et étudiant en deuxième année de Génie Logiciel à l'Institut de Formation et de Recherche en Informatique (IFRI) en tant que boursier de la Fondation MasterCard à l'Université d'Abomey-Calavi.</div>
+                    <div class="text-justify my-3">Je suis très content de vous compter parmi les visiteurs de mon portfolio et je vous prie de ne pas hesiter à me contacter en cas de besoin. Je serai très ravi d'entrer en contact avec vous.</div>
+                    <div class="contact  my-3">Télephone : <a href="tel:+22961149072">+22961149072</a> / <a href="tel:+22960404963">+22960404963</a></div>
+                    <div  class="contact  my-3">Email : <a href="mailto:johanugandonou@gmail.com">johanugandonou@gmail.com</a></div>
+                    <Address class="my-3">Addresse : Residence universitaire de l'Université d'Abomey-Calavi au Bénin</Address>
+                    <div class="d-flex justify-content-between my-3">
+                        <a href="JohanuGandonouCV.pdf" download="Johanu"  target="_blank"><span class="btn btn-info" id="buttonDonwloadCV">Télecharger mon CV</span></a>
+                        <span>
+                            <span class="mx-1">
+                                <a href="mailto:johanugandonou@gmail.com" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                                    </svg>
+                                </a>
+                            </span>
+                            <span class="mx-1">
+                                <a href="https://wa.me/+22961149072" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                        <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                                    </svg>
+                                </a>
+                            </span>
+                            <span class="mx-1">
+                                <a href="tel:+22961149072" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                    </svg>
+                                </a>
+                            </span>
+                            <span class="mx-1">
+                                <a href="https://linkedin.com/in/johanu-gandonou-7421601a1" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                                    </svg>
+                                </a>
+                            </span>
+                            <span class="mx-1">
+                                <a href="https://web.facebook.com/profile.php?id=100008428622236" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                    </svg>
+                                </a>
+                            </span>
+                            <span class="mx-1">
+                                <a href="https://github.com/Johanu66/" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg>
+                                </a>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <span class="d-inline-flex flex-column p-1 align-items-center" id="contactsFixe">
+            <span class="my-1">
+                <a href="mailto:johanugandonou@gmail.com" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                    </svg>
+                </a>
+            </span>
+            <span class="my-1">
+                <a href="https://wa.me/+22961149072" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                        <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                    </svg>
+                </a>
+            </span>
+            <span class="my-1">
+                <a href="tel:+22961149072" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                    </svg>
+                </a>
+            </span>
+            <span class="my-1">
+                <a href="https://linkedin.com/in/johanu-gandonou-7421601a1" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                    </svg>
+                </a>
+            </span>
+            <span class="my-1">
+                <a href="https://web.facebook.com/profile.php?id=100008428622236" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                    </svg>
+                </a>
+            </span>
+        </span>
+        <script src="script.js"></script>
+    </body>
+</html>
