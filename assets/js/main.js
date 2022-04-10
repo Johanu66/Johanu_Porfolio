@@ -89,6 +89,7 @@ window.addEventListener("load", () => {
 
       if (this.hash == '#header') {
         header.classList.remove('header-top')
+        document.querySelector('.lineDrawing_mobile').setAttribute('viewBox', '-250 0 1000 100')
         sections.forEach((item) => {
           item.classList.remove('section-show')
         })
@@ -97,6 +98,7 @@ window.addEventListener("load", () => {
 
       if (!header.classList.contains('header-top')) {
         header.classList.add('header-top')
+        document.querySelector('.lineDrawing_mobile').setAttribute('viewBox', '0 0 1000 100')
         setTimeout(function() {
           sections.forEach((item) => {
             item.classList.remove('section-show')
@@ -127,6 +129,7 @@ window.addEventListener("load", () => {
         let navlinks = select('#navbar .nav-link', true)
 
         header.classList.add('header-top')
+        document.querySelector('.lineDrawing_mobile').setAttribute('viewBox', '0 0 1000 100')
 
         navlinks.forEach((item) => {
           if (item.getAttribute('href') == window.location.hash) {

@@ -8,8 +8,8 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/Johanu_background_mobile.png") top no-repeat;
-  background-size: cover;
+  background: #040404 url("../img/Johanu_background.jpg") top right no-repeat;
+  background-attachment: fixed;
   left: 0;
   right: 0;
   top: 0;
@@ -19,11 +19,16 @@ body::before {
 .text-justify{
   text-align: justify;
 }
+
+
+#header .container .lineDrawing_desktop{
+  display: block;
+}
+#header .container .lineDrawing_mobile{
+  display: none;
+}
+
 @media (min-width: 1024px) {
-  body::before {
-    background: #040404 url("../img/Johanu_background.jpg") top right no-repeat;
-    background-attachment: fixed;
-  }
 }
 
 a {
@@ -106,6 +111,9 @@ h1, h2, h3, h4, h5, h6 {
   #header{
     align-items: flex-end;
   }
+  #header.header-top{
+    align-items: center;
+  }
   #header h1 {
     font-size: 36px;
   }
@@ -123,8 +131,16 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     align-items: center;
   }
-  #header .container #lineDrawing{
+  body::before {
+    background: #040404 url("../img/Johanu_background_mobile.png") top no-repeat;
+    background-size: cover;
+  }
+  
+  #header .container .lineDrawing_desktop{
     display: none;
+  }
+  #header .container .lineDrawing_mobile{
+    display: block;
   }
 }
 
@@ -231,8 +247,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
   transition: 0.5s;
   position: fixed;
-  right: 15px;
-  top: 15px;
+  right: 20px;
+  top: 12px;
 }
 
 @media (max-width: 991px) {
@@ -258,8 +274,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 12px;
+  right: 20px;
 }
 .navbar-mobile ul {
   display: block;
