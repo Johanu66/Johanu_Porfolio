@@ -7,7 +7,10 @@
 
 
 /***********Loader************/
-window.addEventListener("load", () => { document.getElementById('loader_container').classList.add('hidden'); });
+window.addEventListener("load", () => {
+  document.getElementById('loader_container').classList.add('hidden');
+  document.querySelector('img').setAttribute('loading', 'eager');
+});
 
 (function() {
   "use strict";
