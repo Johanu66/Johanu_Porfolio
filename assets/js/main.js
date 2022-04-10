@@ -9,7 +9,7 @@
 /***********Loader************/
 window.addEventListener("load", () => {
   document.getElementById('loader_container').classList.add('hidden');
-  document.querySelectorAll('img').forEach(e => e.setAttribute('loading', 'eager'));
+  //document.querySelectorAll('img').forEach(e => e.setAttribute('loading', 'eager'));
 });
 
 (function() {
