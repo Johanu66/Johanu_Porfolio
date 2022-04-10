@@ -115,12 +115,16 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
   #header .social-links {
-    margin-top: 15px;
+    margin-top: 0px;
+    margin-bottom: 70px;
   }
   #header .container {
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: center;
+  }
+  #header .container #lineDrawing{
+    display: none;
   }
 }
 
