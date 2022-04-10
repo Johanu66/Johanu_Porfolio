@@ -4,6 +4,11 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+
+/***********Loader************/
+window.addEventListener("load", () => { document.getElementById('loader_container').classList.add('hidden'); });
+
 (function() {
   "use strict";
 
